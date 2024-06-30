@@ -1,7 +1,11 @@
 const Header = () => {
     return (
         <div>
-            <h1 className='text-6xl bg-slate-400'>Course Registration</h1>
+            <h1 className='text-6xl pl-96 pt-10 pb-10'>
+                <div className="pl-20">
+                    Course Registration
+                </div>
+            </h1>
         </div>
     );
 };
