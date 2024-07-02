@@ -1,7 +1,7 @@
 import { BsBook } from "react-icons/bs";
 
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddSelectedCourse }) => {
     const { cover, title, description, price, credit_hour } = blog;
     return (
         <div className="px-10 py-10 w-auto">
@@ -13,7 +13,7 @@ const Blog = ({ blog }) => {
                 <button><BsBook></BsBook></button>
                 <span className="text-xl">Credit : {credit_hour}</span>
             </div>
-            <button className="w-full bg-blue-600 text-white text-xl py-2 rounded-md pb-3">Select</button>
+            <button onClick={handleAddSelectedCourse} className="w-full bg-blue-600 text-white text-xl py-2 rounded-md pb-3">Select</button>
         </div>
     );
 };
