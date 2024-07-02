@@ -1,6 +1,4 @@
-import React from 'react';
-
-const CourseName = () => {
+const SelectedCourse = () => {
     return (
         <div className='md:w-1/4'>
             <h3>Course Name</h3>
@@ -8,4 +6,4 @@ const CourseName = () => {
     );
 };
 
-export default CourseName;
+export default SelectedCourse;

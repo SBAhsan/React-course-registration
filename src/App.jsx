@@ -1,7 +1,8 @@
 import './App.css'
 import Blogs from './components/Blogs/Blogs'
-import CourseName from './components/CourseName/CourseName'
+import CourseName from './components/SelectedCourse/SelectedCourse'
 import Header from './components/Header/Header'
+import SelectedCourse from './components/SelectedCourse/SelectedCourse'
 
 function App() {
 
@@ -11,9 +12,9 @@ function App() {
     <>
 
       <Header></Header>
-      <div className='md:flex justify-between'>
+      <div className='md:flex'>
         <Blogs></Blogs>
-        <CourseName></CourseName>
+        <SelectedCourse></SelectedCourse>
       </div>
 
     </>
